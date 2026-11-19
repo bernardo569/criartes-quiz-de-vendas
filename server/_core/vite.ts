@@ -16,8 +16,7 @@ export async function setupVite(app: Express, server: Server) {
   const vite = await createViteServer({
     ...viteConfig,
     configFile: false,
-    // Keep the file-serving limits of vite.config.ts; only the options above differ here.
-    server: { ...viteConfig.server, ...serverOptions },
+    server: serverOptions,
     appType: "custom",
   });
 

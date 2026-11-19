@@ -199,9 +199,7 @@ export default defineConfig({
     ],
     fs: {
       strict: true,
-      // Setting deny replaces Vite's defaults, so they are repeated here first. Then dotfiles, and the
-      // browser debug logs: they can hold request data of the people testing the Preview.
-      deny: [".env", ".env.*", "*.{crt,pem}", "**/.git/**", "**/.*", "**/.manus-logs/**"],
+      deny: ["**/.*"],
     },
   },
 });

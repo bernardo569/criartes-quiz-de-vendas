@@ -4,7 +4,7 @@ import { ENV } from "./env";
 export type HeartbeatJob = {
   name: string;
   /**
-   * 6-field cron with seconds (`sec min hour dom mon dow`), UTC, min interval 300s.
+   * 6-field cron with seconds (`sec min hour dom mon dow`), UTC, min interval 60s.
    * Use `0` for the seconds field — e.g. `"0 0 9 * * *"` is daily 09:00 UTC.
    * See the Webdev skill references/scheduled-work.md.
    */
