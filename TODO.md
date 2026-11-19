@@ -23,3 +23,9 @@
 - [x] Ações para WhatsApp e email; contactos 948 595 707 e geral@editoracriartes.com; morada Bairro Prenda, lado oposto da Samba, defronte o Suave; endereço www.criartes.lol.
 - [x] Landing page na rota `/`, com versão responsiva para dispositivos móveis e desktop.
 - [x] Diagnóstico TypeScript, build estático, resposta HTTP da página, manifest JSON e carregamento HTTP das quatro imagens verificados.
+
+## Repositório público e alojamento GitHub Pages
+- [x] Tornar público o repositório `bernardo569/criartes-quiz-de-vendas`, conforme pedido, após verificar o histórico por segredos; o histórico e os ficheiros preparados não apresentaram correspondências nos padrões comuns verificados.
+- [x] Disponibilizar um comando reprodutível `build:pages` que gera os ficheiros estáticos na pasta `docs/` e configura recursos e rotas para o prefixo `/criartes-quiz-de-vendas/`.
+- [ ] Configurar GitHub Pages para publicar a branch `main` a partir da pasta `/docs` e disponibilizar o site em `https://bernardo569.github.io/criartes-quiz-de-vendas/`.
+- [ ] Confirmar que a página publicada e os seus recursos visuais são acessíveis publicamente pelo URL do GitHub Pages.
